@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96035d18d4f955478ac8df9ee8407c0, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  data:
+    speed: 5
+    obstacle:
+      serializedVersion: 2
+      m_Bits: 256
+    targetLayer:
+      serializedVersion: 2
+      m_Bits: 1024
+    catchMinDistance: 0.8
+    PowerMode: {fileID: -1254183602032391468, guid: a5c35a6dcd32a3c448feeaa16554ed59, type: 3}
+    NormalMode: {fileID: -127885108630083313, guid: a5c35a6dcd32a3c448feeaa16554ed59, type: 3}
+    CatchVFX: {fileID: 1810853280983163772, guid: b038038d5da6662469c33747d355b640, type: 3}
